@@ -3,7 +3,13 @@
 # JevSoup
 ### System-One Routing for Training-Free LoRA Composition
 
-Jiahua Cheng · Xiuying Wang · Yichen Li
+[Xiuying Wang](https://leowang980.github.io/)<sup>1,†</sup> · Jiahua Cheng<sup>1,†</sup> · Shuotian Li<sup>2,†</sup> · Yufan Cheng<sup>3</sup><br>
+Junyi Zheng<sup>1</sup> · Bowen Deng<sup>1</sup> · Zhexuan Bai<sup>1</sup> · [Yichen Li](https://yichenli-hust.github.io/)<sup>4,*</sup>
+
+<sup>1</sup> Beijing University of Posts and Telecommunications · <sup>2</sup> University of Malaya<br>
+<sup>3</sup> Georgian College · <sup>4</sup> Huazhong University of Science and Technology
+
+<sup>†</sup> Equal contribution. <sup>*</sup> Corresponding author.
 
 [![Paper](https://img.shields.io/badge/Paper-coming%20soon-b31b1b?style=flat-square)](#citation)
 [![Documentation](https://img.shields.io/badge/Documentation-Getting%20Started-228c22?style=flat-square)](docs/GETTING_STARTED.md)
@@ -12,7 +18,9 @@ Jiahua Cheng · Xiuying Wang · Yichen Li
 </div>
 
 <p align="center">
-  <img src="assets/framework.png" alt="JevSoup: System One selects two experts; System Two composes their updates through orthogonal projection." width="900">
+  <a href="assets/framework.pdf">
+    <img src="assets/framework.png" alt="JevSoup: System One selects two experts; System Two composes their updates through orthogonal projection." width="900">
+  </a>
 </p>
 
 **JevSoup** combines lightweight expert selection with orthogonal LoRA
@@ -94,9 +102,10 @@ Paper and arXiv links will be added when available. Author metadata is provided
 in [CITATION.cff](CITATION.cff); the provisional manuscript citation is:
 
 ```bibtex
-@unpublished{cheng2026jevsoup,
+@unpublished{wang2026jevsoup,
   title  = {JevSoup: System-One Routing for Training-Free LoRA Composition},
-  author = {Cheng, Jiahua and Wang, Xiuying and Li, Yichen},
+  author = {Wang, Xiuying and Cheng, Jiahua and Li, Shuotian and Cheng, Yufan
+            and Zheng, Junyi and Deng, Bowen and Bai, Zhexuan and Li, Yichen},
   year   = {2026},
   note   = {Manuscript}
 }

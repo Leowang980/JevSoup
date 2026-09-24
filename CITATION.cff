@@ -3,10 +3,31 @@ message: "Please cite this software when using JevSoup. Paper bibliographic deta
 type: software
 title: "JevSoup"
 version: "0.1.0"
+repository-code: "https://github.com/Leowang980/JevSoup"
 authors:
-  - family-names: Cheng
-    given-names: Jiahua
   - family-names: Wang
     given-names: Xiuying
+    affiliation: "Beijing University of Posts and Telecommunications"
+    website: "https://leowang980.github.io/"
+  - family-names: Cheng
+    given-names: Jiahua
+    affiliation: "Beijing University of Posts and Telecommunications"
+  - family-names: Li
+    given-names: Shuotian
+    affiliation: "University of Malaya"
+  - family-names: Cheng
+    given-names: Yufan
+    affiliation: "Georgian College"
+  - family-names: Zheng
+    given-names: Junyi
+    affiliation: "Beijing University of Posts and Telecommunications"
+  - family-names: Deng
+    given-names: Bowen
+    affiliation: "Beijing University of Posts and Telecommunications"
+  - family-names: Bai
+    given-names: Zhexuan
+    affiliation: "Beijing University of Posts and Telecommunications"
   - family-names: Li
     given-names: Yichen
+    affiliation: "Huazhong University of Science and Technology"
+    website: "https://yichenli-hust.github.io/"
