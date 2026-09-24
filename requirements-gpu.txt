@@ -1,0 +1,12 @@
+# Actual completed benchmark environment, not the superseded research README.
+# Install torch separately from the CUDA 12.8 index; see README.
+torch==2.8.0
+transformers==5.17.0
+peft==0.21.0
+portallib==0.2.1
+huggingface-hub==1.32.0
+accelerate==1.15.0
+datasets==5.0.1
+safetensors==0.8.0
+httpx==0.28.1
+numpy==2.3.2

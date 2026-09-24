@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "jevsoup"
+version = "0.1.0"
+description = "Training-free expert routing and orthogonal LoRA composition on PorTAL"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = ["httpx==0.28.1"]
+
+[project.scripts]
+jevsoup = "jevsoup.__main__:main"
+jev-lora = "jev_lora.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["jev_lora*", "jevsoup*"]
