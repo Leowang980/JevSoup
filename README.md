@@ -11,7 +11,7 @@ Bowen Deng<sup>1</sup> · Zhexuan Bai<sup>1</sup> · [Yichen Li](https://yichenl
 
 <sup>†</sup> Equal contribution. <sup>*</sup> Corresponding author.
 
-[![Paper PDF](https://img.shields.io/badge/Paper-PDF-b31b1b?style=flat-square)](assets/JevSoup.pdf)
+[![Paper PDF](https://img.shields.io/badge/Paper-PDF-b31b1b?style=flat-square)](https://leowang980.github.io/files/JevSoup.pdf)
 [![Documentation](https://img.shields.io/badge/Documentation-Getting%20Started-228c22?style=flat-square)](docs/GETTING_STARTED.md)
 [![Benchmark](https://img.shields.io/badge/Benchmark-PorTAL-FFD21E?style=flat-square)](https://huggingface.co/datasets/RampPublic/portallib-tasks)
 
@@ -98,7 +98,7 @@ JevSoup/
 
 ## Citation
 
-The manuscript is available as a [PDF](assets/JevSoup.pdf). The arXiv link will
+The manuscript is available as a [PDF](https://leowang980.github.io/files/JevSoup.pdf). The arXiv link will
 be added once available. Author metadata is provided in [CITATION.cff](CITATION.cff);
 the manuscript citation is:
 
