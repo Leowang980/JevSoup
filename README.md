@@ -4,14 +4,14 @@
 ### System-One Routing for Training-Free LoRA Composition
 
 [Xiuying Wang](https://leowang980.github.io/)<sup>1,†</sup> · Jiahua Cheng<sup>1,†</sup> · Shuotian Li<sup>2,†</sup> · Yufan Cheng<sup>3</sup><br>
-Junyi Zheng<sup>1</sup> · Bowen Deng<sup>1</sup> · Zhexuan Bai<sup>1</sup> · [Yichen Li](https://yichenli-hust.github.io/)<sup>4,*</sup>
+Bowen Deng<sup>1</sup> · Zhexuan Bai<sup>1</sup> · [Yichen Li](https://yichenli-hust.github.io/)<sup>4,*</sup>
 
 <sup>1</sup> Beijing University of Posts and Telecommunications · <sup>2</sup> University of Malaya<br>
 <sup>3</sup> Georgian College · <sup>4</sup> Huazhong University of Science and Technology
 
 <sup>†</sup> Equal contribution. <sup>*</sup> Corresponding author.
 
-[![Paper](https://img.shields.io/badge/Paper-coming%20soon-b31b1b?style=flat-square)](#citation)
+[![Paper PDF](https://img.shields.io/badge/Paper-PDF-b31b1b?style=flat-square)](assets/JevSoup.pdf)
 [![Documentation](https://img.shields.io/badge/Documentation-Getting%20Started-228c22?style=flat-square)](docs/GETTING_STARTED.md)
 [![Benchmark](https://img.shields.io/badge/Benchmark-PorTAL-FFD21E?style=flat-square)](https://huggingface.co/datasets/RampPublic/portallib-tasks)
 
@@ -87,7 +87,7 @@ split used in the paper. Macro averages tasks equally; micro averages examples.
 
 ```text
 JevSoup/
-├── assets/          # Framework illustration
+├── assets/          # Paper PDF and framework illustration
 ├── jevsoup/         # Public experiment entry points
 ├── jev_lora/        # Data preparation, routing, model loading and scoring
 ├── scripts/         # Composition engines, baselines, downloads and profiling
@@ -98,14 +98,15 @@ JevSoup/
 
 ## Citation
 
-Paper and arXiv links will be added when available. Author metadata is provided
-in [CITATION.cff](CITATION.cff); the provisional manuscript citation is:
+The manuscript is available as a [PDF](assets/JevSoup.pdf). The arXiv link will
+be added once available. Author metadata is provided in [CITATION.cff](CITATION.cff);
+the manuscript citation is:
 
 ```bibtex
 @unpublished{wang2026jevsoup,
   title  = {JevSoup: System-One Routing for Training-Free LoRA Composition},
   author = {Wang, Xiuying and Cheng, Jiahua and Li, Shuotian and Cheng, Yufan
-            and Zheng, Junyi and Deng, Bowen and Bai, Zhexuan and Li, Yichen},
+            and Deng, Bowen and Bai, Zhexuan and Li, Yichen},
   year   = {2026},
   note   = {Manuscript}
 }
